@@ -16,3 +16,4 @@ const jQuery = require("jquery");
 // don't mess up too bad if we have several gmail.js-based
 // extensions loaded at the same time!
 window._gmailjs = window._gmailjs || new GmailFactory.Gmail(jQuery);
+window._jQuery = window._jQuery || jQuery;
